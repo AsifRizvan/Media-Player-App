@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div>
-      <MDBFooter style={{backgroundColor:'#262626', color:'#f2f2f2'}} className='text-center text-lg-start text-muted fixed-bottom'>
+      <MDBFooter style={{backgroundColor:'#262626', color:'#f2f2f2'}} className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
@@ -38,7 +38,7 @@ function Footer() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4' style={{color:'#ff4d4d'}} >
+              <h6 className='text-uppercase fw-bold mb-4 text-danger'  >
                 <MDBIcon color='#ff4d4d' fas icon='play' className='me-3' />
                 Media Player
               </h6>
@@ -48,7 +48,7 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4' style={{color:'#ff4d4d'}} >Resources</h6>
+              <h6 className='text-uppercase fw-bold mb-4 text-danger'  >Resources</h6>
               <p>
                 <a href='https://vitejs.dev/' className='text-reset'>
                   Vite
@@ -72,7 +72,7 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4' style={{color:'#ff4d4d'}} >Links</h6>
+              <h6 className='text-uppercase fw-bold mb-4 text-danger'  >Links</h6>
               <p>           
                 <Link to={'/'} style={{textDecoration:'none', color:'#f2f2f2'}}>
                 Landing Page
@@ -91,7 +91,7 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4' style={{color:'#ff4d4d'}} >Contact</h6>
+              <h6 className='text-uppercase fw-bold mb-4 text-danger'  >Contact</h6>
               <p>
                 <MDBIcon color='secondary' icon='home' className='me-3' />
                 ABCD, XY 12345, US
